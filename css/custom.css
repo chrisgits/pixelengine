@@ -2,26 +2,98 @@
 
 body {
   font-size: 16px;
-  background-color: #fff;
-}
-
-.content {
-  min-height: 800px;
+  background-color: #c3c3c3;
 }
 
 
 
+/* === HEADER === */
+header {
+  width: 100%;
+  height: 53px;
+  background-color: #ee6723;
+}
+
+.nav-sect {
+  width: 100%;
+  height: 53px;
+  text-align: center;
+}
+
+#logo {
+  display: block;
+  padding-top: 5px;
+  width: 100%;
+}
+
+#logo > img {
+  display: inline-block;
+  position: absolute;
+  height: 100px;
+  left: 40px;
+}
+
+.nav-list { /* NAV UL */
+  display: inline-block;
+  line-height: 50px;
+}
+
+.nav-sect ul>li {
+  display: inline-block;
+  color: white;
+  list-style: none;
+  height: 50px;
+  border-left: 1px dotted #c3c3c3;
+  border-right: 1px dotted #c3c3c3;
+  padding: 0px 20px 0px 20px;
+}
+
+.nav-sect ul>li:hover {
+  color: #1AB0E8;
+  background-color: white;
+  border-bottom: 4px solid #7eb646;
+  
+}
+
+.nav-sect ul>span>img {
+  display: inline-block;
+  position: relative;
+  height: 57px;
+  top: 5px;
+  padding: 0px 10px 0px 10px;
+}
 
 
+
+/* === SECTION 1 === */
+
+.sect-1 {
+  width: 100%;
+  height: 400px;
+  background-color: #c3c3c3;
+  border-left: 1px dashed #848484;
+  border-right: 1px dashed #848484;
+  border-bottom: 1px dashed #848484;
+}
+
+/* === SECTION 2 === */
+.sect-2 {
+  width: 100%;
+  height: 400px;
+  background-color: #c3c3c3;
+  border-left: 1px dashed #848484;
+  border-right: 1px dashed #848484;
+}
 
 /* === FOOTER === */
 
 footer {
   position: relative;
   height: 300px;
-  background-color: darkorange;
+  background-color: #1ab0e8;
   text-align: center;
   padding-top: 2em;
+  bottom: 0px;
 }
 
 .social {
@@ -29,6 +101,17 @@ footer {
   position: relative;
   height: 200px;
   width: 200px;
+  margin-left: 2em;
+  background-color: dimgray;
+  color: #d7d7d7;
+  border-radius: 20px;
+}
+
+.contact {
+  display: inline-block;
+  position: relative;
+  height: 200px;
+  width: 400px;
   margin-left: 2em;
   background-color: dimgray;
   color: #d7d7d7;
