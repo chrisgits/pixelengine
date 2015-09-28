@@ -1,0 +1,15 @@
+<!-- Original NAV code before Bootstrap integration -->
+
+      <nav class="nav-sect">
+        <span id="brand">
+          PIXEL <br> ENGINEERING
+        </span>
+          <ul class="nav-list">
+            <li>LEARNING</li>
+            <li>BUILDING</li>
+            <span><img src="img/pixel_X.png"/></span>
+            <li>INSPIRED</li>
+            <li>ARCHITECT</li>
+          </ul>
+        
+      </nav>
