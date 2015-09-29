@@ -21,12 +21,24 @@ header {
 #brand {
   display: inline-block;
   position: absolute;
-  left: 27px;
+  left: 1em;
   top: 5px;
+  color: red;
   text-align: right;
   font-family: "museo-slab", sans-serif;
   font-weight: bold;
   font-size: 0.8em;
+}
+
+#brand a {
+  color: #373737;
+  text-decoration: none;
+  transition: color .2s ease-in;
+}
+
+#brand a:hover {
+  color: #c3c3c3;
+  text-decoration: none;
 }
 
 .nav-sect {
@@ -38,6 +50,7 @@ header {
 .nav-list { /* NAV UL */
   display: inline-block;
   line-height: 50px;
+  padding-left: 0px;
 }
 
 .nav-sect ul>li {
@@ -61,14 +74,13 @@ header {
   border-bottom: 4px solid #1ab0e8;
 }
 
-.nav-sect ul>span>img {
+.nav-sect ul>span>a>img {
   display: inline-block;
   position: relative;
   height: 57px;
   top: 5px;
   padding: 0px 10px 0px 10px;
 }
-
 
 
 /* === SECTION 1 === */
@@ -102,11 +114,11 @@ footer {
 }
 
 .social {
-  background-color: #848484;
-  color: #d7d7d7;
+/*  background-color: #848484;*/
+/*  border: 2px solid white;*/
+  color: white;
   height: 200px;
   padding-top: 1.2em;
-  border: 2px solid white;
   font-family: "museo-slab", sans-serif;
 }
 
@@ -145,18 +157,19 @@ footer {
 }
 
 .contact {
-  background-color: #848484;
+/*  background-color: #848484;*/
+/*  border: 2px solid white;*/
   color: #d7d7d7;
   height: 200px;
-  border: 2px solid white;
   font-family: "museo-slab", monospace, sans-serif;
-  font-size: 1em;
+  font-size: 1.2em;
   text-align: left;
-  padding-top: 2em;
+  padding-top: 1.2em;
 }
 
 .contact p {
   display: block;
+  color: #373737;
   max-width: 10em;
   margin: 0px 0px 0px 30px;
 }
@@ -166,8 +179,8 @@ footer {
 }
 
 .contact p:nth-of-type(1) {
-  padding-top: 20px;
   border-bottom: 2px solid white;
+  color: #373737
 }
 
 #logo {
@@ -201,9 +214,11 @@ footer {
 }
 
 /* === MEDIA QUERIES === */
-@media (max-width: 800px) {
+@media (max-width: 870px) {
   #brand {
-    display: none;    
+    display: none;
+    left: 0px;
+    
   }
 }
 
