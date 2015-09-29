@@ -1,8 +1,12 @@
 /* Pixel Engineering Co -- Custom CSS -- Handcrafted Construction -- */
 
 body {
-  font-size: 16px;
+  font-size: 20px;
   background-color: #c3c3c3;
+}
+
+a {
+  color: white;
 }
 
 /* === HEADER === */
@@ -17,11 +21,12 @@ header {
 #brand {
   display: inline-block;
   position: absolute;
-  left: 20px;
+  left: 27px;
   top: 5px;
   text-align: right;
-  font-family: "Myriad Pro Regular", sans-serif;
+  font-family: "museo-slab", sans-serif;
   font-weight: bold;
+  font-size: 0.8em;
 }
 
 .nav-sect {
@@ -38,18 +43,22 @@ header {
 .nav-sect ul>li {
   display: inline-block;
   color: white;
+  font-family: "museo-slab",sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 0.8em;
   list-style: none;
   height: 50px;
   border-left: 1px dotted #c3c3c3;
   border-right: 1px dotted #c3c3c3;
   padding: 0px 20px 0px 20px;
+  transition: background-color .5s ease-in-out, border .3s ease-in-out;
 }
 
 .nav-sect ul>li:hover {
   color: #5d5d5d;
   background-color: white;
   border-bottom: 4px solid #1ab0e8;
-  
 }
 
 .nav-sect ul>span>img {
@@ -96,24 +105,69 @@ footer {
   background-color: #848484;
   color: #d7d7d7;
   height: 200px;
-  border-radius: 20px;
-  border: 1px dashed white;
+  padding-top: 1.2em;
+  border: 2px solid white;
+  font-family: "museo-slab", sans-serif;
+}
+
+.social ul {
+  list-style: none;
+}
+
+.social span {
+  display: block;
+  width: 6em;
+  margin: 0 auto;
+  padding-bottom: .5em;
+  border-bottom: 2px solid white;
+}
+
+.soc-links {
+  min-width: 280px;
+}
+
+.social a {
+  display: inline-block;
+  margin-top: 1em;
+  padding: 0px 12px;
+  color: #373737;
+  border-radius: 10px;
+  transition: background-color .2s ease-in-out, color .3s ease-in-out;
+}
+
+.social a:hover {
+  background-color: white;
+  color: #ee6723;
+}
+
+.social ul>li:nth-of-type(1) {
+  margin-left: -20px;
 }
 
 .contact {
   background-color: #848484;
   color: #d7d7d7;
   height: 200px;
-  border-radius: 20px;
-  border: 1px dashed white;
+  border: 2px solid white;
+  font-family: "museo-slab", monospace, sans-serif;
+  font-size: 1em;
+  text-align: left;
+  padding-top: 2em;
 }
 
-.legal {
-  line-height: 40px;
-  color: #d7d7d7;
-  font-family: monospace;
-  margin-top: 20px;
-  padding: 20px 0px;
+.contact p {
+  display: block;
+  max-width: 10em;
+  margin: 0px 0px 0px 30px;
+}
+
+.contact p>span {
+  color: #c60800
+}
+
+.contact p:nth-of-type(1) {
+  padding-top: 20px;
+  border-bottom: 2px solid white;
 }
 
 #logo {
@@ -125,12 +179,25 @@ footer {
   height: 175px;
 }
 
-footer > span {
+footer {
+  width: 100%;
   display: inline-block;
   position: relative;
-  bottom: -2em;
+  color: #d7d7d7;
+  font-family: "museo-slab", monospace, sans-serif;
+  font-size: 1em;
+}
+
+.legal {
+  line-height: 40px;
   color: #d7d7d7;
   font-family: monospace;
+  padding: 10px 0px;
+}
+
+.legal span {
+  font-family: "museo-slab", monospace, sans-serif;
+  font-size: .8em;
 }
 
 /* === MEDIA QUERIES === */
