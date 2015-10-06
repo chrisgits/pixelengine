@@ -7,11 +7,11 @@ body {
 }
 
 a {
+ color: white;
  list-style: none;
 }
 
 a:hover {
-  color: #373737;
   text-decoration: none;
 }
 
@@ -39,6 +39,15 @@ header {
   line-height: 50px;
 }
 
+.mblnav ul {
+  padding-left: 0px;
+  /* removes 40px padding in bootstrap ul */
+}
+
+.mbl-list a {
+  color: black;
+}
+
 #mblmenu i {
   display: inline-block;
   position: relative;
@@ -60,8 +69,6 @@ header {
   background-color: white;
   border-bottom: 2px dotted #c3c3c3;
 }
-
-.mblna
 
 .mbl-list ul>a {
   display: block;
