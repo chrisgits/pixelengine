@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Pixel Engineering - Web Design - Graphics - Print - Photography</title>
 
@@ -24,17 +24,32 @@
   <body>
     <header>  
       <nav class="nav-sect">
-        <span id="brand">
-         <a href="index.html">PIXEL<br>ENGINEERING</a> 
-        </span>
-          <ul class="nav-list">
-            <li>LEARNING</li>
-            <li>BUILDING</li>
-            <span><a href="index.html"><img src="img/pixel_X.png"/></a></span>
-            <li>INSPIRED</li>
-            <li>ARCHITECT</li>
+        <div id="mblmenu">
+          <span id="brand">
+           <a href="index.html">PIXEL<br>ENGINEERING</a> 
+          </span>
+          <i class="fa fa-bars fa-2x"></i>
+        </div>
+        <div class="mblnav">
+          <ul class="mbl-list">
+            <li><a href="#">LEARNING</a></li>
+            <li><a href="#">BUILDING</a></li>
+            <li><a href="#">INSPIRED</a></li>
+            <li><a href="#">ARCHITECT</a></li>
           </ul>
-        
+        </div><!--END mbl navbar-->
+        <div class="fullnav">
+          <span id="brand">
+           <a href="index.html">PIXEL<br>ENGINEERING</a> 
+          </span>
+          <ul class="nav-list">
+            <li><a href="#">LEARNING</a></li>
+            <li><a href="#">BUILDING</a></li>
+            <span><a href="index.html"><img src="img/pixel_X.png"/></a></span>
+            <li><a href="#">INSPIRED</a></li>
+            <li><a href="#">ARCHITECT</a></li>
+          </ul>
+        </div><!--END full navbar-->  
       </nav>
     </header>
     <div class="container-fluid content">
@@ -58,10 +73,12 @@
         <section class="sect-2 col-md-12">
           <div class="quotes">
             <h1>Architecture begins with an Idea</h1>
-            <h2>"An idea is a specific mental structure by which we organize, undertand and give meaning to external experiences and infromation"</h2>
+            <h2>"An idea is a specific mental structure by which we organize, understand and give meaning to external experiences and information"</h2>
             <span>--Matthew Frederick</span>
+          </div>
+          <div class="quotes">
             <h3>Your idea is what we engineer.</h3>
-            <h3>The code that you don't see is just as important as the design that you see.</h3>
+            <h3>The code that you don't see is just as important as the design that you do see.</h3>
           </div>
           
         </section>
@@ -84,7 +101,7 @@
         </div>
         <div class="contact col-md-4">
           <p>Designed/Coded In</p>
-          <p>Omaha | Nebraska</p>
+          <p>Omaha | Nebraska by</p>
           <p>Chris Mannel</p>
           <p>402.750.6433</p>
         </div><!-- END col4 -->
@@ -102,5 +119,6 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="../js/customjs.js"></script>
   </body>
 </html>
