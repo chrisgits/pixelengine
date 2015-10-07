@@ -39,35 +39,23 @@ header {
   line-height: 50px;
 }
 
-.mblnav ul {
-  padding-left: 0px;
-  /* removes 40px padding in bootstrap ul */
-}
-
-.mbl-list a {
-  color: black;
-}
-
 #mblmenu i {
   display: inline-block;
   position: relative;
   vertical-align: middle;
 }
 
-.fa-bars:hover {
-  color: #373737;
-  transition: color .3s ease-in-out; 
-}
-
-.fa-bars:hover {
-  color: white;
-}
 .mblnav {
   display: block;
   width: 100%;
   line-height: 53px;
   background-color: white;
-  border-bottom: 2px dotted #c3c3c3;
+  border-top: 2px solid white;
+}
+
+.mblnav ul {
+  padding-left: 0px;
+  /* removes 40px padding in bootstrap ul */
 }
 
 .mbl-list ul>a {
@@ -87,6 +75,20 @@ header {
   background-color: #ee6723;
   
 }
+
+.mbl-list a {
+  color: black;
+}
+
+.fa-bars:hover {
+  color: #373737;
+  transition: color .3s ease-in-out; 
+}
+
+.fa-bars:hover {
+  color: white;
+}
+
 
 
 /* ================= */
