@@ -12,6 +12,7 @@ a {
 }
 
 a:hover {
+  color: #5d5d5d;
   text-decoration: none;
 }
 
@@ -89,9 +90,7 @@ header {
   color: white;
 }
 
-
-
-/* ================= */
+/* === Desktop Nav === */
 
 #brand {
   display: inline-block;
@@ -122,7 +121,7 @@ header {
 
 .nav-list { /* NAV UL */
   display: inline-block;
-  line-height: 50px;
+  line-height: 52px;
   padding-left: 0px;
 }
 
@@ -144,6 +143,11 @@ header {
   color: #5d5d5d;
   background-color: white;
   border-bottom: 4px solid #1ab0e8;
+}
+
+.active {
+  background-color: #1ab0e8;
+  border-bottom: 3px solid white;
 }
 
 .nav-sect ul>span>a>img {
