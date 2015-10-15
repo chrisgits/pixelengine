@@ -20,6 +20,15 @@ li {
   list-style: none;
 }
 
+h1, h2, p {
+   font-family: "museo-slab", sans-serif;
+}
+
+.col-md-12 {
+  text-align: center;
+}
+
+
 /* === HEADER/NAV === */
 header {
   position: relative;
@@ -379,11 +388,31 @@ footer {
     display: none;
   }
   
-}/*END @media <520px*/
+}/*END @media >700px*/
 
+/* === SECONDARY PAGE SETUP === */
 
+.content-div {
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.5);
+}
 
+.top-article {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 3.5em;
+  padding: 1em 0em;
+  color: black;
+  text-align: center;
+  border-top: 2px double black; 
+  border-bottom: 2px double black; 
+}
 
+.col-md-12 span {
+  color: #1AB0E8;
+  text-shadow: 1px 1px 2px black;
+}
 
 
 
