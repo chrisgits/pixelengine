@@ -147,7 +147,7 @@ header {
 
 .nav-list li a {
   display: block;
-  width: 150px;
+  width: 130px;
 }
 
 .nav-list li:hover {
@@ -394,6 +394,15 @@ footer {
   color: #c60800;
 }
 
+.media-body hr {
+  border-top: 2px solid red;
+}
+
+.media-right img {
+  width: 80px;
+  border-radius: 5px;
+}
+
 .card {
   text-align: left;
   padding: 2em;
@@ -409,6 +418,10 @@ footer {
 
 .card a:hover {
   text-decoration: underline;
+}
+
+.thumbnail a {
+  color: #ECA422;
 }
 
 /* === BLOG SECTION === */
