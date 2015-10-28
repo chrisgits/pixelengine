@@ -27,7 +27,6 @@ h1, h2, p {
   text-align: center;
 }
 
-
 /* === HEADER/NAV === */
 header {
   position: relative;
@@ -139,7 +138,7 @@ header {
   font-weight: 300;
   font-size: 0.8em;
   list-style: none;
-  height: 50px;
+  height: 51px;
   border-left: 1px dotted #c3c3c3;
   border-right: 1px dotted #c3c3c3;
   transition: background-color .5s ease-in-out, border .3s ease-in-out;
@@ -161,18 +160,16 @@ header {
   border-bottom: 3px solid white;
 }
 
-.nav-sect ul>span>a>img {
-  display: inline-block;
+.nav-sect img {
   position: relative;
-  height: 57px;
-  top: 5px;
+  height: 55px;
+  top: 4px;
   padding: 0px 10px 0px 10px;
 }
 
 .fullnav {
   display: block;
-  height: 53px;
-  
+  height: 54px;
 }
 
 .quotes {
@@ -254,6 +251,7 @@ footer {
   font-size: 1em;
 }
 
+/*footer texture*/
 footer::after {
   content: "";
   background-image: url(/img/px.png);
@@ -322,7 +320,7 @@ footer::after {
   display: block;
   color: #373737;
   max-width: 12em;
-  margin: 0px 0px 0px 30px;
+  margin: 0px auto;
 }
 
 .contact p:nth-of-type(1) {
