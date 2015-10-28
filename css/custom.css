@@ -249,6 +249,9 @@ footer {
   padding-top: 2em;
   bottom: 0px;
   z-index: 0;
+  color: #d7d7d7;
+  font-family: "museo-slab", monospace, sans-serif;
+  font-size: 1em;
 }
 
 footer::after {
@@ -307,8 +310,6 @@ footer::after {
 }
 
 .contact {
-/*  background-color: #848484;*/
-/*  border: 2px solid white;*/
   color: #d7d7d7;
   height: 200px;
   font-family: "museo-slab", monospace, sans-serif;
@@ -334,14 +335,7 @@ footer::after {
   height: 175px;
 }
 
-footer {
-  width: 100%;
-  display: inline-block;
-  position: relative;
-  color: #d7d7d7;
-  font-family: "museo-slab", monospace, sans-serif;
-  font-size: 1em;
-}
+
 
 .legal {
   line-height: 40px;
@@ -395,7 +389,7 @@ footer {
 }
 
 .media-body hr {
-  border-top: 2px solid red;
+  border-top: 2px solid #c60800;
 }
 
 .media-right img {
@@ -463,7 +457,7 @@ footer {
   }
   .sect-2 div {
     max-width: 100%; 
-  }  
+  }
 }/*END @media <890px*/
 
 @media (max-width: 700px)  {
@@ -500,6 +494,17 @@ footer {
     width: 100%;
     padding: 0em .5em;
   }
+  
+  footer {
+    text-align: center;
+  }
+  
+  .contact {
+    display: inline-block;
+    text-align: center;
+  }
+  
+  
 }/*END @media <700px*/
 
 @media (min-width: 701px){
