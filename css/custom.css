@@ -333,8 +333,6 @@ footer::after {
   height: 175px;
 }
 
-
-
 .legal {
   line-height: 40px;
   color: #d7d7d7;
@@ -416,6 +414,11 @@ footer::after {
   color: #ECA422;
 }
 
+.thumbnail img {
+  margin: 0em auto;
+  margin-top: 1em;
+}
+
 /* === BLOG SECTION === */
 .blog-post {
   width: 70%;
@@ -438,8 +441,15 @@ footer::after {
   font-weight: bold;
 }
 
-.blog-end {
-  
+.blog-post img {
+  margin-bottom: 1em;
+}
+
+.codepen {
+  display: block;
+  margin-bottom: 1em;
+  padding: 1em;
+  min-height: 500px;
 }
 
 /* === MEDIA QUERIES === */
