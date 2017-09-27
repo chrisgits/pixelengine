@@ -20,14 +20,14 @@
     <![endif]-->
     <!--  Pixel Engineering Co -- Index HTML -- Where it All Begins -- Handcrafted Construction -->
   </head>
-  
+
   <body>
-    <!-- === HEADER/NAV CONTENT learn.html === --> 
-    <header>  
+    <!-- === HEADER/NAV CONTENT learn.html === -->
+    <header>
       <nav class="nav-sect">
         <div id="mblmenu">
           <span id="brand">
-           <a href="index.html">PIXEL<br>ENGINEERING</a> 
+           <a href="index.html">PIXEL<br>ENGINEERING</a>
           </span>
           <i class="fa fa-bars fa-2x"></i>
         </div>
@@ -41,7 +41,7 @@
         </div><!--END mbl navbar-->
         <div class="fullnav">
           <span id="brand">
-           <a href="index.html">PIXEL<br>ENGINEERING</a> 
+           <a href="index.html">PIXEL<br>ENGINEERING</a>
           </span>
           <ul class="nav-list">
             <li class="active"><a href="learn.html">LEARNING</a></li>
@@ -50,68 +50,34 @@
 <!--            <li><a href="inspire.html">INSPIRED</a></li>-->
             <li><a href="architect.html">ARCHITECT</a></li>
           </ul>
-        </div><!--END full navbar-->  
+        </div><!--END full navbar-->
       </nav>
     </header>
-    
-    <!-- === MAIN CONTENT === -->  
+
+    <!-- === MAIN CONTENT === -->
     <div class="container-fluid content">
       <div class="row content-div">
         <div class="col-md-12">
           <div class="top-article">
             <h1>Web Development is Always Evolving</h1>
             <p>Every day something new is learned. A new layer of knowledge is stacked on top of the rest. People that are passionate about web technologies want to push the technology to the next level every day.</p>
-            
+
           </div><!-- END top article -->
           <h2>| <span>Learning Stack</span> |</h2>
-          <h4>A log of all that I have learned, pondered, and tinkered with lately.</h4>
+          <h4>A log of all that I have learned, built, pondered, and tinkered with lately.</h4>
+          
         </div>
       </div> <!-- END row 1 -->
       <div class="row content-div">
         <div class="article-stack">
-        <!-- === POST === -->
-          <div class="blog-post">
-            <h3>Site Conversion</h3>
-            <h4>OCT 25, 2015</h4>
-            <p>Awesome stuff coming soon. I've decided to take on a bigger project of my own over time. I will be converting this site into Express built goodness. Along with that I will refactor CSS into SCSS for offline building to streamline the process and better prepare for future builds and additions to the site.</p>
-            <p>I look forward to the templates that I will be able to build out for the site so that it is all modular and easier to maintain. I also look to do that with our CSS as well.</p>
-            <p>As always though, check out my latest pens on <a href="http://www.codepen.io/chrisgits">CodePen</a>, the best code tinkering site around!</p>
-            <div class="blog-end"></div>
-          </div><!-- END article -->
-      <!-- === POST === -->    
-          <div class="blog-post">
-            <h3>Fun with Express</h3>
-            <h4>OCT 18, 2015</h4>
-            <p>Lately I've been working through a great course <a href="https://twitter.com/treehouse">@Treehouse</a> working on the Express framework for <a href="https://twitter.com/nodejs">@node.js</a>. Awesome features and automation give this framework awesome abilities using node.js. I love them both for sure. </p>
-            <div class="blog-end"></div>
-          </div><!-- END article -->
-     <!-- === POST === -->     
-          <div class="blog-post">
-            <h3>Fun with Ajax</h3>
-            <h4>OCT 01, 2015</h4>
-            <p>I recently did work with Wunderground's API on CodePen. I setup my API key and was able to get a functioning weather module working using JS triggers for the latest updates. Check it out <a href="http://codepen.io/chrisgits/pen/BoLpdq">here</a>. Or see it below!
-            Right now pretty simple because it's only checking Omaha's weather. But that is really important -- for those of us in Omaha anyway!</p>
-            <p data-height="268" data-theme-id="0" data-slug-hash="BoLpdq" data-default-tab="result" data-user="chrisgits" class='codepen code_pen'>See the Pen <a href='http://codepen.io/chrisgits/pen/BoLpdq/'>Weather API (Static Ajax request)</a> by Chris Mannel (<a href='http://codepen.io/chrisgits'>@chrisgits</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
-            <div class="blog-end"></div>
-          </div><!-- END article -->
-     <!-- === POST === -->
-          <div class="blog-post">
-            <h3>Site background</h3>
-            <h4>OCT 11, 2015</h4>
-            <p>People have asked, "Chris, what in the world is that photo in the background of your site?" I say, "But of course, it is a sculpture of a famous conductor's head in Boston, MA," (think Boston Pops - Arthur Fiedler). A photo I took several years ago on a photo walk for the Photoshop User's conference there. Check out info on the sculpture <a href="http://www.publicartboston.com/content/arthur-fiedler-memorial">here</a> if you are interested.</p>
-            <p>I liked the way the light was creating contrast on this sculpture and emphasising the layers it is made up of. I took a few shots of the back of the sculpture where the late day sun was having fun with all the aluminum layers. The 'layers' of a website work much the same, building on each other as it is constructed. Cool stuff. Here is one of the photos I look so you can see the rest of the scupture.</p>
-            
-            <img src="/img/sculpture.jpg" alt="layered head sculpture" class="img-thumbnail">
-            <div class="blog-end"></div>
-          </div><!-- END article -->
+
         </div>
         <div class="col-md-2"></div>
       </div> <!-- END row 2 -->
     </div> <!-- END container -->
-    
-    
-    <!-- === FOOTER CONTENT === --> 
+
+
+    <!-- === FOOTER CONTENT === -->
     <footer>
       <div class="row">
         <div class="social col-md-4 col-sm-6">
@@ -135,18 +101,26 @@
       </div><!-- END row  -->
       <div class="row">
         <div class="legal col-xs-12">
-          <span>A Pixel Engineering Build. &copy 2015</span>
+          <span>A Pixel Engineering Build. &copy </span><span id="year"></span>
         </div><!-- END col12 -->
       </div><!-- END row  -->
     </footer>
-    
-    <!-- === BOTTOM CODE === --> 
+
+    <!-- === BOTTOM CODE === -->
     <!-- ====== Foundation built below this line - Don't let this building collapse! ====== -->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script src="../js/customjs.js"></script>
+    <script src="../js/min/customjs-min.js"></script>
+    <!-- js copyright auto update -->
+    <script>
+      var today = new Date();
+      var year = today.getFullYear();
+      var el = document.getElementById('year');
+      el.innerHTML = year;
+    </script>
+
   </body>
 </html>
